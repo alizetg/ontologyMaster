@@ -1,0 +1,646 @@
+@prefix : <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23> .
+
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23> rdf:type owl:Ontology ;
+                                                                          owl:imports <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://dbpedia.org/ontology/continent
+<http://dbpedia.org/ontology/continent> rdf:type owl:AnnotationProperty ;
+                                        rdfs:domain <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/crownDependency
+<http://dbpedia.org/ontology/crownDependency> rdf:type owl:AnnotationProperty ;
+                                              rdfs:domain <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/europeanUnionEntranceDate
+<http://dbpedia.org/ontology/europeanUnionEntranceDate> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:domain <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/numberOfMinistries
+<http://dbpedia.org/ontology/numberOfMinistries> rdf:type owl:AnnotationProperty ;
+                                                 rdfs:domain <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/topLevelDomain
+<http://dbpedia.org/ontology/topLevelDomain> rdf:type owl:AnnotationProperty ;
+                                             rdfs:domain <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/wordBefore
+<http://dbpedia.org/ontology/wordBefore> rdf:type owl:AnnotationProperty ;
+                                         rdfs:domain <http://dbpedia.org/ontology/Country> .
+
+
+###  http://open.vocab.org/terms/defines
+<http://open.vocab.org/terms/defines> rdf:type owl:AnnotationProperty .
+
+
+###  http://open.vocab.org/terms/describes
+<http://open.vocab.org/terms/describes> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2007/05/powder-s#describedby
+<http://www.w3.org/2007/05/powder-s#describedby> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://dbpedia.org/ontology/administrativeHeadCity
+<http://dbpedia.org/ontology/administrativeHeadCity> rdf:type owl:ObjectProperty ;
+                                                     rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/beltwayCity
+<http://dbpedia.org/ontology/beltwayCity> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/capital
+<http://dbpedia.org/ontology/capital> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/capitalCountry
+<http://dbpedia.org/ontology/capitalCountry> rdf:type owl:ObjectProperty ;
+                                             rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/city
+<http://dbpedia.org/ontology/city> rdf:type owl:ObjectProperty ;
+                                   rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/country
+<http://dbpedia.org/ontology/country> rdf:type owl:ObjectProperty ;
+                                      rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/countryOrigin
+<http://dbpedia.org/ontology/countryOrigin> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/countryWithFirstAstronaut
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> rdf:type owl:ObjectProperty ;
+                                                        rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/countryWithFirstSatellite
+<http://dbpedia.org/ontology/countryWithFirstSatellite> rdf:type owl:ObjectProperty ;
+                                                        rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched
+<http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched> rdf:type owl:ObjectProperty ;
+                                                                rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/countryWithFirstSpaceflight
+<http://dbpedia.org/ontology/countryWithFirstSpaceflight> rdf:type owl:ObjectProperty ;
+                                                          rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/currentCity
+<http://dbpedia.org/ontology/currentCity> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/fastestDriverCountry
+<http://dbpedia.org/ontology/fastestDriverCountry> rdf:type owl:ObjectProperty ;
+                                                   rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/firstDriverCountry
+<http://dbpedia.org/ontology/firstDriverCountry> rdf:type owl:ObjectProperty ;
+                                                 rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/foundationPlace
+<http://dbpedia.org/ontology/foundationPlace> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/governmentCountry
+<http://dbpedia.org/ontology/governmentCountry> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/locationCity
+<http://dbpedia.org/ontology/locationCity> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/locationCountry
+<http://dbpedia.org/ontology/locationCountry> rdf:type owl:ObjectProperty ;
+                                              rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/managementCountry
+<http://dbpedia.org/ontology/managementCountry> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/mouthCountry
+<http://dbpedia.org/ontology/mouthCountry> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/nationality
+<http://dbpedia.org/ontology/nationality> rdf:type owl:ObjectProperty ;
+                                          rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/poleDriverCountry
+<http://dbpedia.org/ontology/poleDriverCountry> rdf:type owl:ObjectProperty ;
+                                                rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/secondDriverCountry
+<http://dbpedia.org/ontology/secondDriverCountry> rdf:type owl:ObjectProperty ;
+                                                  rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/sourceConfluenceCountry
+<http://dbpedia.org/ontology/sourceConfluenceCountry> rdf:type owl:ObjectProperty ;
+                                                      rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/sourceCountry
+<http://dbpedia.org/ontology/sourceCountry> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/sportCountry
+<http://dbpedia.org/ontology/sportCountry> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/stateOfOrigin
+<http://dbpedia.org/ontology/stateOfOrigin> rdf:type owl:ObjectProperty ;
+                                            rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/thirdDriverCountry
+<http://dbpedia.org/ontology/thirdDriverCountry> rdf:type owl:ObjectProperty ;
+                                                 rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/twinCountry
+<http://dbpedia.org/ontology/twinCountry> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://dbpedia.org/ontology/Country> ;
+                                          rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/usingCountry
+<http://dbpedia.org/ontology/usingCountry> rdf:type owl:ObjectProperty ;
+                                           rdfs:range <http://dbpedia.org/ontology/Country> .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn
+:dischargesIn rdf:type owl:ObjectProperty ;
+              rdfs:domain :Offer ;
+              rdfs:range <http://dbpedia.org/ontology/City> ;
+              rdfs:comment "Place where the goods for a project are discharged." ;
+              rdfs:label "dischargesIn" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject
+:forProject rdf:type owl:ObjectProperty ;
+            rdfs:domain :Offer ;
+            rdfs:range :UNProject ;
+            rdfs:comment "For which project an offer is." ;
+            rdfs:label "forProject" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress
+:hasAddress rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
+            rdfs:range :Address ;
+            rdfs:comment "Address of an agent." ;
+            rdfs:label "hasAddress" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode
+:hasClassCode rdf:type owl:ObjectProperty ;
+              rdfs:domain :UNSPSCCode ;
+              rdfs:range :UNSPSCClass ;
+              rdfs:comment "Class part of a UNSPSC code." ;
+              rdfs:label "hasClassCode" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact
+:hasContact rdf:type owl:ObjectProperty ;
+            rdfs:domain <http://xmlns.com/foaf/0.1/Organization> ;
+            rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
+            rdfs:comment "Contact person of an organization." ;
+            rdfs:label "hasContact" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode
+:hasFamilyCode rdf:type owl:ObjectProperty ;
+               rdfs:domain :UNSPSCCode ;
+               rdfs:range :UNSPSCFamily ;
+               rdfs:comment "Family part of a UNSPSC code." ;
+               rdfs:label "hasFamilyCode" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm
+:hasIncoterm rdf:type owl:ObjectProperty ;
+             rdfs:domain :Offer ;
+             rdfs:range :Incoterm ;
+             rdfs:comment "Incoterm code of an offer." ;
+             rdfs:label "hasIncoterm" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct
+:hasProduct rdf:type owl:ObjectProperty ;
+            rdfs:domain :Offer ;
+            rdfs:range :Product ;
+            rdfs:comment "Product of an offer." ;
+            rdfs:label "hasProduct" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode
+:hasProductCode rdf:type owl:ObjectProperty ;
+                rdfs:domain :UNSPSCCode ;
+                rdfs:range :UNSPSCProduct ;
+                rdfs:comment "Product part of a UNSPSC code." ;
+                rdfs:label "hasProductCode" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject
+:hasProject rdf:type owl:ObjectProperty ;
+            rdfs:domain :UNAgency ;
+            rdfs:range :UNProject ;
+            rdfs:comment "Project belonging to an United Nations agency." ;
+            rdfs:label "hasProject" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference
+:hasReference rdf:type owl:ObjectProperty ;
+              rdfs:domain :Product ;
+              rdfs:range :Code ;
+              rdfs:comment "Reference code of a product." ;
+              rdfs:label "hasReference" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode
+:hasSegmentCode rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :UNSPSCCode ;
+                rdfs:range :UNSPSCSegment ;
+                rdfs:comment "Segment part of a UNSPSC code." ;
+                rdfs:label "hasSegmentCode" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode
+:hasUNSPSCCode rdf:type owl:ObjectProperty ;
+               rdfs:domain :Product ;
+               rdfs:range :UNSPSCCode ;
+               rdfs:comment "UNSPSC code of a product." ;
+               rdfs:label "hasUNSPSCCode" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry
+:inCountry rdf:type owl:ObjectProperty ;
+           rdfs:domain :UNProject ;
+           rdfs:range <http://dbpedia.org/ontology/Country> ;
+           rdfs:comment "Country of an United Nations project." ;
+           rdfs:label "inCountry" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry
+:isInCountry rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://dbpedia.org/ontology/City> ;
+             rdfs:range <http://dbpedia.org/ontology/Country> ;
+             rdfs:comment "In which country a city is." ;
+             rdfs:label "isInCountry" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers
+:offers rdf:type owl:ObjectProperty ;
+        rdfs:domain :UNGMVendor ;
+        rdfs:range :Offer ;
+        rdfs:comment "A vendor makes an offer." ;
+        rdfs:label "offers" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom
+:receivesOfferFrom rdf:type owl:ObjectProperty ;
+                   rdfs:domain :UNProject ;
+                   rdfs:range :UNGMVendor ;
+                   rdfs:comment "A project receives an offer from a vendor." ;
+                   rdfs:label "receivesOfferFrom" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication
+:ubication rdf:type owl:ObjectProperty ;
+           rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
+           rdfs:range <http://dbpedia.org/ontology/City> ;
+           rdfs:comment "The place where an agent is." ;
+           rdfs:label "ubication" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber
+:IDNumber rdf:type owl:DatatypeProperty ;
+          rdfs:domain :UNGMVendor ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Number that identifies the UNGM Vendor." ;
+          rdfs:label "IDNumber" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue
+:codeValue rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Code ;
+           rdfs:range xsd:string ;
+           rdfs:comment "Value of a code." ;
+           rdfs:label "codeValue" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
+       rdfs:range xsd:string ;
+       rdfs:comment "Email address of an agent." ;
+       rdfs:label "email" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax
+:fax rdf:type owl:DatatypeProperty ;
+     rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
+     rdfs:range xsd:string ;
+     rdfs:comment "Fax number of an agent." ;
+     rdfs:label "fax" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone
+:phone rdf:type owl:DatatypeProperty ;
+       rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
+       rdfs:range xsd:string ;
+       rdfs:comment "Phone number of an agent." ;
+       rdfs:label "phone" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#price
+:price rdf:type owl:DatatypeProperty ;
+       rdfs:comment "Price of the product." ;
+       rdfs:label "price" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber
+:projectNumber rdf:type owl:DatatypeProperty ;
+               rdfs:domain :UNProject ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Number of the project." ;
+               rdfs:label "projectNumber" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity
+:quantity rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Product ;
+          rdfs:range xsd:float ;
+          rdfs:comment "Quantity of the product." ;
+          rdfs:label "quantity" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website
+:website rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://xmlns.com/foaf/0.1/Agent> ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Website of an agent." ;
+         rdfs:label "website" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Capital
+<http://dbpedia.org/ontology/Capital> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/CapitalOfRegion
+<http://dbpedia.org/ontology/CapitalOfRegion> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://dbpedia.org/ontology/City> .
+
+
+###  http://dbpedia.org/ontology/City
+<http://dbpedia.org/ontology/City> rdf:type owl:Class ;
+                                   owl:equivalentClass <http://schema.org/City> ,
+                                                       <http://www.wikidata.org/entity/Q515> ;
+                                   rdfs:subClassOf <http://dbpedia.org/ontology/Settlement> .
+
+
+###  http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> rdf:type owl:Class ;
+                                      owl:equivalentClass <http://schema.org/Country> ,
+                                                          <http://www.wikidata.org/entity/Q6256> ;
+                                      rdfs:subClassOf <http://dbpedia.org/ontology/PopulatedPlace> .
+
+
+###  http://dbpedia.org/ontology/HistoricalCountry
+<http://dbpedia.org/ontology/HistoricalCountry> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://dbpedia.org/ontology/Country> .
+
+
+###  http://dbpedia.org/ontology/PopulatedPlace
+<http://dbpedia.org/ontology/PopulatedPlace> rdf:type owl:Class .
+
+
+###  http://dbpedia.org/ontology/Settlement
+<http://dbpedia.org/ontology/Settlement> rdf:type owl:Class .
+
+
+###  http://schema.org/City
+<http://schema.org/City> rdf:type owl:Class .
+
+
+###  http://schema.org/Country
+<http://schema.org/Country> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address
+:Address rdf:type owl:Class ;
+         rdfs:comment "Address of a place." ;
+         rdfs:label "Address" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code
+:Code rdf:type owl:Class ;
+      rdfs:comment "A code used to identify anything." ;
+      rdfs:label "Code" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm
+:Incoterm rdf:type owl:Class ;
+          rdfs:subClassOf :Code ;
+          rdfs:comment "International Commercial Term" ;
+          rdfs:label "Incoterm" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer
+:Offer rdf:type owl:Class ;
+       rdfs:comment "Offer for an United Nations project" ;
+       rdfs:label "UNOffer" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product
+:Product rdf:type owl:Class ;
+         rdfs:comment "A product" ;
+         rdfs:label "Product" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma
+:Proforma rdf:type owl:Class ;
+          rdfs:subClassOf :Code ;
+          rdfs:comment "Proforma code" ;
+          rdfs:label "Proforma" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency
+:UNAgency rdf:type owl:Class ;
+          rdfs:subClassOf <http://xmlns.com/foaf/0.1/Organization> ;
+          rdfs:comment "United Nations Agency" ;
+          rdfs:label "UNAgency" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor
+:UNGMVendor rdf:type owl:Class ;
+            rdfs:subClassOf <http://xmlns.com/foaf/0.1/Organization> ;
+            rdfs:comment "United Nations Global Market Vendor" ;
+            rdfs:label "UNGMVendor" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject
+:UNProject rdf:type owl:Class ;
+           rdfs:subClassOf <http://xmlns.com/foaf/0.1/Project> ;
+           rdfs:comment "A project from the United Nations" ;
+           rdfs:label "UNProject" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass
+:UNSPSCClass rdf:type owl:Class ;
+             rdfs:subClassOf :Code ;
+             rdfs:comment "UNSPSC Class Code" ;
+             rdfs:label "UNSPSCClass" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode
+:UNSPSCCode rdf:type owl:Class ;
+            rdfs:subClassOf :Code ;
+            rdfs:comment "UNSPSC Code" ;
+            rdfs:label "UNSPSCCode" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily
+:UNSPSCFamily rdf:type owl:Class ;
+              rdfs:subClassOf :Code ;
+              rdfs:comment "UNSPSC Family Code" ;
+              rdfs:label "UNSPSCFamily" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct
+:UNSPSCProduct rdf:type owl:Class ;
+               rdfs:subClassOf :Code ;
+               rdfs:comment "UNSPSC Product Code" ;
+               rdfs:label "UNSPSCProduct" .
+
+
+###  http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment
+:UNSPSCSegment rdf:type owl:Class ;
+               rdfs:subClassOf :Code ;
+               rdfs:comment "UNSPSC Segment Code" ;
+               rdfs:label "UNSPSCSegment" .
+
+
+###  http://www.wikidata.org/entity/Q515
+<http://www.wikidata.org/entity/Q515> rdf:type owl:Class .
+
+
+###  http://www.wikidata.org/entity/Q6256
+<http://www.wikidata.org/entity/Q6256> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/ontology/City
+
+###  http://dbpedia.org/ontology/Country
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://dbpedia.org/ontology/> <http://open.vocab.org/terms/defines> <http://dbpedia.org/ontology/City> ,
+                                                                     <http://dbpedia.org/ontology/Country> .
+
+
+<http://dbpedia.org/ontology/City> rdfs:comment "Actualmente considérase como unha entidade urbana con alta densidade de poboación na que predominan fundamentalmente a industria e os servizos."@gl ,
+                                                "a relatively large and permanent settlement, particularly a large urban settlement"@en ,
+                                                "un asentamiento permanente y relativamente grande, especialmente un gran asentamiento urbano"@es ;
+                                   rdfs:isDefinedBy <http://dbpedia.org/ontology/> ;
+                                   rdfs:label "Stadt"@de ,
+                                              "cathair"@ga ,
+                                              "cidade"@gl ,
+                                              "cidade"@pt ,
+                                              "città"@it ,
+                                              "city"@en ,
+                                              "ciudad"@es ,
+                                              "miasto"@pl ,
+                                              "stad"@nl ,
+                                              "ville"@fr ,
+                                              "πόλη"@el ,
+                                              "शहर"@hi ,
+                                              "市"@ja ,
+                                              "도시"@ko ;
+                                   <http://www.w3.org/2007/05/powder-s#describedby> <http://dbpedia.org/ontology/data/definitions.ttl> ;
+                                   <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:City> .
+
+
+<http://dbpedia.org/ontology/Country> rdfs:isDefinedBy <http://dbpedia.org/ontology/> ;
+                                      rdfs:label "Staat"@de ,
+                                                 "country"@en ,
+                                                 "država"@sl ,
+                                                 "land"@nl ,
+                                                 "pays"@fr ,
+                                                 "país"@es ,
+                                                 "tír"@ga ,
+                                                 "χώρα"@el ,
+                                                 "Государство"@ru ,
+                                                 "国"@ja ,
+                                                 "나라"@ko ;
+                                      <http://www.w3.org/2007/05/powder-s#describedby> <http://dbpedia.org/ontology/data/definitions.ttl> ;
+                                      <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Country> .
+
+
+<http://dbpedia.org/ontology/data/definitions.ttl> <http://open.vocab.org/terms/describes> <http://dbpedia.org/ontology/City> ,
+                                                                                           <http://dbpedia.org/ontology/Country> .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
