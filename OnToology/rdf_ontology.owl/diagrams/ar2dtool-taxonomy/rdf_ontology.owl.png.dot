@@ -1,0 +1,31 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:UNSPSCClass" "base:UNSPSCFamily" "base:UNGMVendor" "base:UNSPSCProduct" "base:UNAgency" "dbo:City" "base:Code" "base:UNSPSCCode" "dbo:Country" "base:UNProject" "base:UNSPSCSegment" "base:Incoterm" "base:Proforma" "foaf:Image" "foaf:Project" "foaf:Agent" "foaf:Document" "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" "foaf:OnlineAccount" "foaf:Person" "foaf:OnlineChatAccount" "foaf:PersonalProfileDocument" "foaf:OnlineGamingAccount" "foaf:Organization" "foaf:Group" "foaf:OnlineEcommerceAccount" ; /*classes style*/
+	"base:UNSPSCClass" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineGamingAccount" -> "foaf:OnlineAccount" [ label = "rdfs:subClassOf" ];
+	"base:UNProject" -> "foaf:Project" [ label = "rdfs:subClassOf" ];
+	"dbo:HistoricalCountry" -> "dbo:Country" [ label = "rdfs:subClassOf" ];
+	"foaf:PersonalProfileDocument" -> "foaf:Document" [ label = "rdfs:subClassOf" ];
+	"base:UNGMVendor" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
+	"base:Proforma" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"foaf:Group" -> "foaf:Agent" [ label = "rdfs:subClassOf" ];
+	"dbo:City" -> "dbo:Settlement" [ label = "rdfs:subClassOf" ];
+	"dbo:Capital" -> "dbo:City" [ label = "rdfs:subClassOf" ];
+	"base:UNSPSCCode" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"base:UNAgency" -> "foaf:Organization" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineChatAccount" -> "foaf:OnlineAccount" [ label = "rdfs:subClassOf" ];
+	"foaf:Image" -> "foaf:Document" [ label = "rdfs:subClassOf" ];
+	"foaf:Person" -> "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" [ label = "rdfs:subClassOf" ];
+	"foaf:Person" -> "foaf:Agent" [ label = "rdfs:subClassOf" ];
+	"base:UNSPSCSegment" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"base:UNSPSCProduct" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"base:Incoterm" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"base:UNSPSCFamily" -> "base:Code" [ label = "rdfs:subClassOf" ];
+	"foaf:Organization" -> "foaf:Agent" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineAccount" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"dbo:Country" -> "dbo:PopulatedPlace" [ label = "rdfs:subClassOf" ];
+	"dbo:CapitalOfRegion" -> "dbo:City" [ label = "rdfs:subClassOf" ];
+	"foaf:OnlineEcommerceAccount" -> "foaf:OnlineAccount" [ label = "rdfs:subClassOf" ];
+
+}
