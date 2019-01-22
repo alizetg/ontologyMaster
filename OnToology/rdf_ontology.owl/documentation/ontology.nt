@@ -1,0 +1,571 @@
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/continent
+<http://dbpedia.org/ontology/continent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://dbpedia.org/ontology/continent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/crownDependency
+<http://dbpedia.org/ontology/crownDependency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://dbpedia.org/ontology/crownDependency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/europeanUnionEntranceDate
+<http://dbpedia.org/ontology/europeanUnionEntranceDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://dbpedia.org/ontology/europeanUnionEntranceDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/numberOfMinistries
+<http://dbpedia.org/ontology/numberOfMinistries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://dbpedia.org/ontology/numberOfMinistries> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/topLevelDomain
+<http://dbpedia.org/ontology/topLevelDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://dbpedia.org/ontology/topLevelDomain> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/wordBefore
+<http://dbpedia.org/ontology/wordBefore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://dbpedia.org/ontology/wordBefore> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+# 
+# http://open.vocab.org/terms/defines
+<http://open.vocab.org/terms/defines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://open.vocab.org/terms/describes
+<http://open.vocab.org/terms/describes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2007/05/powder-s#describedby
+<http://www.w3.org/2007/05/powder-s#describedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/administrativeHeadCity
+<http://dbpedia.org/ontology/administrativeHeadCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/administrativeHeadCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/beltwayCity
+<http://dbpedia.org/ontology/beltwayCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/beltwayCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/capital
+<http://dbpedia.org/ontology/capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/capital> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/capitalCountry
+<http://dbpedia.org/ontology/capitalCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/capitalCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/city
+<http://dbpedia.org/ontology/city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/city> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/country
+<http://dbpedia.org/ontology/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/country> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/countryOrigin
+<http://dbpedia.org/ontology/countryOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/countryOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/countryWithFirstAstronaut
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/countryWithFirstAstronaut> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/countryWithFirstSatellite
+<http://dbpedia.org/ontology/countryWithFirstSatellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/countryWithFirstSatellite> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched
+<http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/countryWithFirstSpaceflight
+<http://dbpedia.org/ontology/countryWithFirstSpaceflight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/countryWithFirstSpaceflight> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/currentCity
+<http://dbpedia.org/ontology/currentCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/currentCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/fastestDriverCountry
+<http://dbpedia.org/ontology/fastestDriverCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/fastestDriverCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/firstDriverCountry
+<http://dbpedia.org/ontology/firstDriverCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/firstDriverCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/foundationPlace
+<http://dbpedia.org/ontology/foundationPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/foundationPlace> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/governmentCountry
+<http://dbpedia.org/ontology/governmentCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/governmentCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/locationCity
+<http://dbpedia.org/ontology/locationCity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/locationCity> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/locationCountry
+<http://dbpedia.org/ontology/locationCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/locationCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/managementCountry
+<http://dbpedia.org/ontology/managementCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/managementCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/mouthCountry
+<http://dbpedia.org/ontology/mouthCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/mouthCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/nationality
+<http://dbpedia.org/ontology/nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/nationality> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/poleDriverCountry
+<http://dbpedia.org/ontology/poleDriverCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/poleDriverCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/secondDriverCountry
+<http://dbpedia.org/ontology/secondDriverCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/secondDriverCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/sourceConfluenceCountry
+<http://dbpedia.org/ontology/sourceConfluenceCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/sourceConfluenceCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/sourceCountry
+<http://dbpedia.org/ontology/sourceCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/sourceCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/sportCountry
+<http://dbpedia.org/ontology/sportCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/sportCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/stateOfOrigin
+<http://dbpedia.org/ontology/stateOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/stateOfOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/thirdDriverCountry
+<http://dbpedia.org/ontology/thirdDriverCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/thirdDriverCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/twinCountry
+<http://dbpedia.org/ontology/twinCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/twinCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+<http://dbpedia.org/ontology/twinCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/usingCountry
+<http://dbpedia.org/ontology/usingCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://dbpedia.org/ontology/usingCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Place where the goods for a project are discharged." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn> <http://www.w3.org/2000/01/rdf-schema#label> "dischargesIn" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject> <http://www.w3.org/2000/01/rdf-schema#comment> "For which project an offer is." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject> <http://www.w3.org/2000/01/rdf-schema#label> "forProject" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Address of an agent." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress> <http://www.w3.org/2000/01/rdf-schema#label> "hasAddress" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Class part of a UNSPSC code." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode> <http://www.w3.org/2000/01/rdf-schema#label> "hasClassCode" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact person of an organization." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact> <http://www.w3.org/2000/01/rdf-schema#label> "hasContact" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Family part of a UNSPSC code." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode> <http://www.w3.org/2000/01/rdf-schema#label> "hasFamilyCode" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm> <http://www.w3.org/2000/01/rdf-schema#comment> "Incoterm code of an offer." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm> <http://www.w3.org/2000/01/rdf-schema#label> "hasIncoterm" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Product of an offer." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct> <http://www.w3.org/2000/01/rdf-schema#label> "hasProduct" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Product part of a UNSPSC code." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode> <http://www.w3.org/2000/01/rdf-schema#label> "hasProductCode" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject> <http://www.w3.org/2000/01/rdf-schema#comment> "Project belonging to an United Nations agency." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject> <http://www.w3.org/2000/01/rdf-schema#label> "hasProject" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference code of a product." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference> <http://www.w3.org/2000/01/rdf-schema#label> "hasReference" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Segment part of a UNSPSC code." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode> <http://www.w3.org/2000/01/rdf-schema#label> "hasSegmentCode" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#comment> "UNSPSC code of a product." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#label> "hasUNSPSCCode" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "Country of an United Nations project." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry> <http://www.w3.org/2000/01/rdf-schema#label> "inCountry" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/City> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "In which country a city is." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry> <http://www.w3.org/2000/01/rdf-schema#label> "isInCountry" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers> <http://www.w3.org/2000/01/rdf-schema#comment> "A vendor makes an offer." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers> <http://www.w3.org/2000/01/rdf-schema#label> "offers" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "A project receives an offer from a vendor." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom> <http://www.w3.org/2000/01/rdf-schema#label> "receivesOfferFrom" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/City> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication> <http://www.w3.org/2000/01/rdf-schema#comment> "The place where an agent is." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication> <http://www.w3.org/2000/01/rdf-schema#label> "ubication" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number that identifies the UNGM Vendor." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber> <http://www.w3.org/2000/01/rdf-schema#label> "IDNumber" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of a code." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue> <http://www.w3.org/2000/01/rdf-schema#label> "codeValue" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email> <http://www.w3.org/2000/01/rdf-schema#comment> "Email address of an agent." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email> <http://www.w3.org/2000/01/rdf-schema#label> "email" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax> <http://www.w3.org/2000/01/rdf-schema#comment> "Fax number of an agent." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax> <http://www.w3.org/2000/01/rdf-schema#label> "fax" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone> <http://www.w3.org/2000/01/rdf-schema#comment> "Phone number of an agent." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone> <http://www.w3.org/2000/01/rdf-schema#label> "phone" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#price
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#price> <http://www.w3.org/2000/01/rdf-schema#comment> "Price of the product." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#price> <http://www.w3.org/2000/01/rdf-schema#label> "price" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of the project." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber> <http://www.w3.org/2000/01/rdf-schema#label> "projectNumber" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantity of the product." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity> <http://www.w3.org/2000/01/rdf-schema#label> "quantity" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website> <http://www.w3.org/2000/01/rdf-schema#comment> "Website of an agent." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website> <http://www.w3.org/2000/01/rdf-schema#label> "website" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/Capital
+<http://dbpedia.org/ontology/Capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Capital> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/CapitalOfRegion
+<http://dbpedia.org/ontology/CapitalOfRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/CapitalOfRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/City> .
+# 
+# http://dbpedia.org/ontology/City
+<http://dbpedia.org/ontology/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/City> .
+<http://schema.org/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q515> .
+<http://www.wikidata.org/entity/Q515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/Settlement> .
+<http://dbpedia.org/ontology/Settlement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Country> .
+<http://schema.org/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.wikidata.org/entity/Q6256> .
+<http://www.wikidata.org/entity/Q6256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/PopulatedPlace> .
+<http://dbpedia.org/ontology/PopulatedPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://dbpedia.org/ontology/HistoricalCountry
+<http://dbpedia.org/ontology/HistoricalCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/HistoricalCountry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://dbpedia.org/ontology/Country> .
+# 
+# http://dbpedia.org/ontology/PopulatedPlace
+# 
+# http://dbpedia.org/ontology/Settlement
+# 
+# http://schema.org/City
+# 
+# http://schema.org/Country
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address> <http://www.w3.org/2000/01/rdf-schema#comment> "Address of a place." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> <http://www.w3.org/2000/01/rdf-schema#comment> "A code used to identify anything." .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm> <http://www.w3.org/2000/01/rdf-schema#comment> "International Commercial Term" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm> <http://www.w3.org/2000/01/rdf-schema#label> "Incoterm" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> <http://www.w3.org/2000/01/rdf-schema#comment> "Offer for an United Nations project" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer> <http://www.w3.org/2000/01/rdf-schema#label> "UNOffer" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A product" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product> <http://www.w3.org/2000/01/rdf-schema#label> "Product" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma> <http://www.w3.org/2000/01/rdf-schema#comment> "Proforma code" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma> <http://www.w3.org/2000/01/rdf-schema#label> "Proforma" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency> <http://www.w3.org/2000/01/rdf-schema#comment> "United Nations Agency" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency> <http://www.w3.org/2000/01/rdf-schema#label> "UNAgency" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Organization> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> <http://www.w3.org/2000/01/rdf-schema#comment> "United Nations Global Market Vendor" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor> <http://www.w3.org/2000/01/rdf-schema#label> "UNGMVendor" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Project> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A project from the United Nations" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject> <http://www.w3.org/2000/01/rdf-schema#label> "UNProject" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass> <http://www.w3.org/2000/01/rdf-schema#comment> "UNSPSC Class Code" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass> <http://www.w3.org/2000/01/rdf-schema#label> "UNSPSCClass" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#comment> "UNSPSC Code" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode> <http://www.w3.org/2000/01/rdf-schema#label> "UNSPSCCode" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily> <http://www.w3.org/2000/01/rdf-schema#comment> "UNSPSC Family Code" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily> <http://www.w3.org/2000/01/rdf-schema#label> "UNSPSCFamily" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "UNSPSC Product Code" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct> <http://www.w3.org/2000/01/rdf-schema#label> "UNSPSCProduct" .
+# 
+# http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code> .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment> <http://www.w3.org/2000/01/rdf-schema#comment> "UNSPSC Segment Code" .
+<http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment> <http://www.w3.org/2000/01/rdf-schema#label> "UNSPSCSegment" .
+# 
+# http://www.wikidata.org/entity/Q515
+# 
+# http://www.wikidata.org/entity/Q6256
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/City
+# 
+# http://dbpedia.org/ontology/Country
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://dbpedia.org/ontology/> <http://open.vocab.org/terms/defines> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/> <http://open.vocab.org/terms/defines> <http://dbpedia.org/ontology/Country> .
+# 
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "Actualmente considérase como unha entidade urbana con alta densidade de poboación na que predominan fundamentalmente a industria e os servizos."@gl .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "a relatively large and permanent settlement, particularly a large urban settlement"@en .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#comment> "un asentamiento permanente y relativamente grande, especialmente un gran asentamiento urbano"@es .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://dbpedia.org/ontology/> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "Stadt"@de .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "cathair"@ga .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "cidade"@gl .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "cidade"@pt .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "città"@it .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "city"@en .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "ciudad"@es .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "miasto"@pl .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "stad"@nl .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "ville"@fr .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "πόλη"@el .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "शहर"@hi .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "市"@ja .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "도시"@ko .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2007/05/powder-s#describedby> <http://dbpedia.org/ontology/data/definitions.ttl> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:City> .
+# 
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://dbpedia.org/ontology/> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Staat"@de .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "country"@en .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "država"@sl .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "land"@nl .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "pays"@fr .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "país"@es .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "tír"@ga .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "χώρα"@el .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Государство"@ru .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "国"@ja .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "나라"@ko .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2007/05/powder-s#describedby> <http://dbpedia.org/ontology/data/definitions.ttl> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://mappings.dbpedia.org/index.php/OntologyClass:Country> .
+# 
+<http://dbpedia.org/ontology/data/definitions.ttl> <http://open.vocab.org/terms/describes> <http://dbpedia.org/ontology/City> .
+<http://dbpedia.org/ontology/data/definitions.ttl> <http://open.vocab.org/terms/describes> <http://dbpedia.org/ontology/Country> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

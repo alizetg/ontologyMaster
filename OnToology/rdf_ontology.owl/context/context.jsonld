@@ -1,0 +1,358 @@
+{
+  "@context" : {
+    "Address" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Address"
+    },
+    "HistoricalCountry" : {
+      "@id" : "http://dbpedia.org/ontology/HistoricalCountry"
+    },
+    "currentCity" : {
+      "@id" : "http://dbpedia.org/ontology/currentCity",
+      "@type" : "@id"
+    },
+    "thirdDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/thirdDriverCountry",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://dbpedia.org/ontology/Country"
+    },
+    "describes" : {
+      "@id" : "http://open.vocab.org/terms/describes"
+    },
+    "country" : {
+      "@id" : "http://dbpedia.org/ontology/country",
+      "@type" : "@id"
+    },
+    "Organization" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Organization"
+    },
+    "stateOfOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/stateOfOrigin",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "capitalCountry" : {
+      "@id" : "http://dbpedia.org/ontology/capitalCountry",
+      "@type" : "@id"
+    },
+    "continent" : {
+      "@id" : "http://dbpedia.org/ontology/continent"
+    },
+    "UNSPSCCode" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCCode"
+    },
+    "city" : {
+      "@id" : "http://dbpedia.org/ontology/city",
+      "@type" : "@id"
+    },
+    "Product" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Product"
+    },
+    "UNGMVendor" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNGMVendor"
+    },
+    "Offer" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Offer"
+    },
+    "fax" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#fax",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "countryWithFirstSatellite" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstSatellite",
+      "@type" : "@id"
+    },
+    "hasAddress" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasAddress",
+      "@type" : "@id"
+    },
+    "wordBefore" : {
+      "@id" : "http://dbpedia.org/ontology/wordBefore"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "countryWithFirstSpaceflight" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstSpaceflight",
+      "@type" : "@id"
+    },
+    "numberOfMinistries" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfMinistries"
+    },
+    "UNSPSCClass" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCClass"
+    },
+    "isInCountry" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#isInCountry",
+      "@type" : "@id"
+    },
+    "sourceCountry" : {
+      "@id" : "http://dbpedia.org/ontology/sourceCountry",
+      "@type" : "@id"
+    },
+    "projectNumber" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#projectNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CapitalOfRegion" : {
+      "@id" : "http://dbpedia.org/ontology/CapitalOfRegion"
+    },
+    "website" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#website",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasUNSPSCCode" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasUNSPSCCode",
+      "@type" : "@id"
+    },
+    "hasProject" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProject",
+      "@type" : "@id"
+    },
+    "administrativeHeadCity" : {
+      "@id" : "http://dbpedia.org/ontology/administrativeHeadCity",
+      "@type" : "@id"
+    },
+    "codeValue" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#codeValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "email" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "defines" : {
+      "@id" : "http://open.vocab.org/terms/defines"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "IDNumber" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#IDNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "poleDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/poleDriverCountry",
+      "@type" : "@id"
+    },
+    "countryWithFirstAstronaut" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstAstronaut",
+      "@type" : "@id"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "describedby" : {
+      "@id" : "http://www.w3.org/2007/05/powder-s#describedby"
+    },
+    "hasReference" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasReference",
+      "@type" : "@id"
+    },
+    "hasProduct" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProduct",
+      "@type" : "@id"
+    },
+    "receivesOfferFrom" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#receivesOfferFrom",
+      "@type" : "@id"
+    },
+    "quantity" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#quantity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "wasDerivedFrom" : {
+      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+    },
+    "PopulatedPlace" : {
+      "@id" : "http://dbpedia.org/ontology/PopulatedPlace"
+    },
+    "countryWithFirstSatelliteLaunched" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched",
+      "@type" : "@id"
+    },
+    "UNSPSCFamily" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCFamily"
+    },
+    "usingCountry" : {
+      "@id" : "http://dbpedia.org/ontology/usingCountry",
+      "@type" : "@id"
+    },
+    "forProject" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#forProject",
+      "@type" : "@id"
+    },
+    "ubication" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#ubication",
+      "@type" : "@id"
+    },
+    "firstDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/firstDriverCountry",
+      "@type" : "@id"
+    },
+    "inCountry" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#inCountry",
+      "@type" : "@id"
+    },
+    "foundationPlace" : {
+      "@id" : "http://dbpedia.org/ontology/foundationPlace",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "hasSegmentCode" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasSegmentCode",
+      "@type" : "@id"
+    },
+    "fastestDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/fastestDriverCountry",
+      "@type" : "@id"
+    },
+    "Project" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Project"
+    },
+    "hasContact" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasContact",
+      "@type" : "@id"
+    },
+    "phone" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#phone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "mouthCountry" : {
+      "@id" : "http://dbpedia.org/ontology/mouthCountry",
+      "@type" : "@id"
+    },
+    "sportCountry" : {
+      "@id" : "http://dbpedia.org/ontology/sportCountry",
+      "@type" : "@id"
+    },
+    "twinCountry" : {
+      "@id" : "http://dbpedia.org/ontology/twinCountry",
+      "@type" : "@id"
+    },
+    "UNProject" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNProject"
+    },
+    "UNSPSCProduct" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCProduct"
+    },
+    "capital" : {
+      "@id" : "http://dbpedia.org/ontology/capital",
+      "@type" : "@id"
+    },
+    "crownDependency" : {
+      "@id" : "http://dbpedia.org/ontology/crownDependency"
+    },
+    "secondDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/secondDriverCountry",
+      "@type" : "@id"
+    },
+    "Capital" : {
+      "@id" : "http://dbpedia.org/ontology/Capital"
+    },
+    "Incoterm" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Incoterm"
+    },
+    "City" : {
+      "@id" : "http://dbpedia.org/ontology/City"
+    },
+    "UNSPSCSegment" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNSPSCSegment"
+    },
+    "hasIncoterm" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasIncoterm",
+      "@type" : "@id"
+    },
+    "Q6256" : {
+      "@id" : "http://www.wikidata.org/entity/Q6256"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "price" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#price"
+    },
+    "Code" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Code"
+    },
+    "Settlement" : {
+      "@id" : "http://dbpedia.org/ontology/Settlement"
+    },
+    "beltwayCity" : {
+      "@id" : "http://dbpedia.org/ontology/beltwayCity",
+      "@type" : "@id"
+    },
+    "locationCity" : {
+      "@id" : "http://dbpedia.org/ontology/locationCity",
+      "@type" : "@id"
+    },
+    "dischargesIn" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#dischargesIn",
+      "@type" : "@id"
+    },
+    "sourceConfluenceCountry" : {
+      "@id" : "http://dbpedia.org/ontology/sourceConfluenceCountry",
+      "@type" : "@id"
+    },
+    "hasProductCode" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasProductCode",
+      "@type" : "@id"
+    },
+    "countryOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/countryOrigin",
+      "@type" : "@id"
+    },
+    "nationality" : {
+      "@id" : "http://dbpedia.org/ontology/nationality",
+      "@type" : "@id"
+    },
+    "europeanUnionEntranceDate" : {
+      "@id" : "http://dbpedia.org/ontology/europeanUnionEntranceDate"
+    },
+    "hasClassCode" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasClassCode",
+      "@type" : "@id"
+    },
+    "topLevelDomain" : {
+      "@id" : "http://dbpedia.org/ontology/topLevelDomain"
+    },
+    "Proforma" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#Proforma"
+    },
+    "locationCountry" : {
+      "@id" : "http://dbpedia.org/ontology/locationCountry",
+      "@type" : "@id"
+    },
+    "Q515" : {
+      "@id" : "http://www.wikidata.org/entity/Q515"
+    },
+    "offers" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#offers",
+      "@type" : "@id"
+    },
+    "UNAgency" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#UNAgency"
+    },
+    "managementCountry" : {
+      "@id" : "http://dbpedia.org/ontology/managementCountry",
+      "@type" : "@id"
+    },
+    "hasFamilyCode" : {
+      "@id" : "http://www.semanticweb.org/plgf/ontologies/2019/0/untitled-ontology-23#hasFamilyCode",
+      "@type" : "@id"
+    },
+    "governmentCountry" : {
+      "@id" : "http://dbpedia.org/ontology/governmentCountry",
+      "@type" : "@id"
+    }
+  }
+}
